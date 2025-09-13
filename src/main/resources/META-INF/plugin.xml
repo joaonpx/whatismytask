@@ -5,11 +5,9 @@
     <vendor>joaonpx</vendor>
 
     <depends>com.intellij.modules.platform</depends>
-
-    <resource-bundle>messages.MyBundle</resource-bundle>
+    <depends>Git4Idea</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.joaonpx.whatismytask.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
-        <postStartupActivity implementation="com.github.joaonpx.whatismytask.startup.MyProjectActivity" />
+        <checkinHandlerFactory implementation="com.github.joaonpx.whatismytask.BranchCommitMessageHandlerFactory"/>
     </extensions>
 </idea-plugin>
