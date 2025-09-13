@@ -8,3 +8,7 @@
 - Add `BranchCommitMessageHandlerFactory`
   - Responsible for updating the commit message with the branch name whenever there is a branch checkout or the commit tab is opened
 - Add `pluginIcon.svg`
+
+## [0.0.1]
+### Added
+- First Release
