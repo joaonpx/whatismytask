@@ -6,7 +6,7 @@
 ### Added
 - Add `Git4Idea` to `platformBundledPlugins`
 - Add `BranchCommitMessageHandlerFactory`
-  - Responsible for updating the commit message with the branch name whenever there is a branch checkout or the commit tab is opened
+  - Responsible for updating the commit message with the branch name whenever there is a branch checkout
 - Add `pluginIcon.svg`
 
 ## [0.0.1]
